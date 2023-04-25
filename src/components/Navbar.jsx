@@ -8,11 +8,11 @@ function Navbar() {
           className="h-[35px]"
         />
       </div>
-      <div className="flex flex-row items-center gap-[50px] text-blue-600 font-semibold text-xl">
-        <a href="https://www.finos.tech/#">Products</a>
-        <a href="https://www.finos.tech/#">About</a>
-        <a href="https://www.finos.tech/contact/">Contact</a>
-        <button className="px-[20px] py-[8px] bg-white text-blue-600 border-2 border-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-xl">
+      <div className="flex flex-row items-center gap-[50px] text-black font-semibold text-lg">
+        <a href="https://www.finos.tech/#" className="hover:text-blue-700">Products</a>
+        <a href="https://www.finos.tech/#" className="hover:text-blue-700">About</a>
+        <a href="https://www.finos.tech/contact/" className="hover:text-blue-700">Contact</a>
+        <button className="px-[20px] py-[4px] bg-white text-blue-600 border-2 border-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-xl">
           Login
         </button>
       </div>

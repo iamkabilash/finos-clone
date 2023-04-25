@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+#banner h1{
+    background: -webkit-linear-gradient(135deg, #0289ff, #ff00c8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
